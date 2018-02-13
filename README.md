@@ -15,3 +15,9 @@ Due to the adaptive properties of long term memory in response to short term act
 A goal is a desired state defined by a set of objects that differ from the active set. A goal influences a filter in the same way as the active set, allowing related information to pass through. The combination of active and goal objects creates a synergistic effect on the activity between the objects to which they’re both related. The result is a predicted set that includes objects connected to both the current and the desired state, providing a potential path between them.
 
 Base filtering is the initial layer of filtering that effects how objects are activated. All activity must reach a certain threshold to become active, and base filtering weighs every activation so that objects become either more difficult or easier to activate and pass through the filter.
+
+First-order filtering applies weights to specific types of objects, determined by the description of objects and their associated weights in a filter script.
+
+Second-order filtering uses conditional rules for determining how objects are weighed, according to current elements in short term memory, which includes the active objects, predicted objects, and/or goal objects.
+
+Filters can be viewed as autonomous agents, performing actions in response to inputs (activated objects) according to a set of decision rules (script logic). Each filter has an of internal memory, which varies in size and complexity based on the needs of the filter.
