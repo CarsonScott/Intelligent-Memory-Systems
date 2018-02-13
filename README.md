@@ -16,8 +16,6 @@ A goal is a desired state defined by a set of objects that differ from the activ
 
 Base filtering is the initial layer of filtering that effects how objects are activated. All activity must reach a certain threshold to become active, and base filtering weighs every activation so that objects become either more difficult or easier to activate and pass through the filter.
 
-First-order filtering applies weights to specific types of objects, determined by the description of objects and their associated weights in a filter script.
-
-Second-order filtering uses conditional rules for determining how objects are weighed, according to current elements in short term memory, which includes the active objects, predicted objects, and/or goal objects.
+First-order filtering applies weights to specific types of objects, determined by the description of objects and their associated weights in a filter script. Second-order filtering uses conditional rules for determining how objects are weighed, according to current elements in short term memory, which includes the active objects, predicted objects, and/or goal objects.
 
 Filters can be viewed as autonomous agents, performing actions in response to inputs (activated objects) according to a set of decision rules (script logic). Each filter has an of internal memory, which varies in size and complexity based on the needs of the filter.
